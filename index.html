@@ -116,8 +116,8 @@
 
             // 선택한 항목으로 텍스트 변경
             list.forEach((item) => {
-                item.addEventListener('click', () => {
-                    btn.textContent = item.textContent;
+                list.addEventListener('click', () => {
+                    btn.textContent = list.textContent;
                 });
             });
         </script>
